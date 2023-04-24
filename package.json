@@ -2,7 +2,7 @@
   "name": "avalon-app",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://aarba.github.io/public",
+  "homepage": "https://aarba.github.io/public",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
@@ -16,12 +16,12 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-i18next": "^11.16.9",
-    "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
     "gh-pages": "^5.0.0",
-    "i18next-scanner": "^2.11.0"
+    "i18next-scanner": "^2.11.0",
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,7 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "i-scanner": "i18next-scanner --config config/i18next-scanner.config.js 'src/**/*.{js,jsx}'",
-    "deploy" : "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
