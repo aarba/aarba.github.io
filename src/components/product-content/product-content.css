@@ -1,0 +1,11 @@
+.description-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.description-table td {
+    padding: 8px;
+}
+
+.description-table tr {
+    border: 1px solid black;
+}

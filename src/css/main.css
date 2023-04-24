@@ -13,6 +13,10 @@ body {
   color: #444444;
 }
 
+.c-p {
+  cursor: pointer;
+}
+
 a {
   color: #1977cc;
   text-decoration: none;
