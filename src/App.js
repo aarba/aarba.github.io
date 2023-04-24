@@ -30,7 +30,7 @@ function App() {
       })
     }, 1000);
   }, [])
-
+    console.log('heeelloo')
   return (
     <div className="App">
          <TopBar/>
