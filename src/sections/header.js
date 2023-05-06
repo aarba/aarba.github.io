@@ -12,7 +12,7 @@ const Header = () => {
           <a className="main-avalon-logo" href="index.html"> </a>
         </h1>
         <a href="index.html" className="logo me-auto" />
-        <img src="assets/img/logo.png" alt="" className="img-fluid" />
+        {/* <img src="assets/img/logo.png" alt="" className="img-fluid" /> */}
 
         <nav id="navbar" className="navbar order-last order-lg-0">
           <ul>
@@ -37,7 +37,7 @@ const Header = () => {
                 className={cm("nav-link scrollto", {})}
                 href="#services"
               >
-                 {t('navLink.services')}
+                 {t('navLink.products')}
               </a>
             </li>
             <li>

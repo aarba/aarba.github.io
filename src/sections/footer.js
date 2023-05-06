@@ -63,7 +63,7 @@ const Footer = () => {
 
       <div className="me-md-auto text-center text-md-start">
         <div className="copyright">
-          &copy; Copyright <strong><span>Avalon</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>aarba</span></strong>. All Rights Reserved
         </div>
         {/* <div className="credits">
           <!-- All the links in the footer should remain intact. -->
@@ -73,11 +73,9 @@ const Footer = () => {
         </div> */}
       </div>
       <div className="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
-        <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
-        <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a>
-        <a href="#" className="google-plus"><i className="bx bxl-skype"></i></a>
-        <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+        <a href="https://www.facebook.com/aarba23" className="twitter"><i className="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/aarba23" className="facebook"><i className="bx bxl-facebook"></i></a>
+        <a href="https://www.facebook.com/aarba23" className="instagram"><i className="bx bxl-instagram"></i></a>
       </div>
     </div>
   </footer>

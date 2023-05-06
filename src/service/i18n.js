@@ -26,10 +26,10 @@ i18n
             welcome: 'Welcome to Avalon Dental'
           },
           navLink: {
-            home: 'Barev Telman ev Varduhi',
-            gallery: 'Gallery',
-            services: 'Our Services',
-            contact: 'Contact'
+            home: 'Մեր մասին',
+            gallery: 'Տեսադարան',
+            products: 'Մոդելներ',
+            contact: 'Հետադարձ Կապ'
           },
           intro: {
             innovation: '',
@@ -37,16 +37,15 @@ i18n
             insurance: '',
             client: ''
           },
-          services: {
-            title: 'Our services',
-            desc: 'Application of innovative methods, equipments and materials, Abroad trained experienced dentists, Insurance and social packages, Individual approach to every client.',
-            implantation: 'Implantation',
-            surgery: 'Surgery',
-            cosmetic: 'Cosmetic tooth restoration',
-            orthopedics: 'Orthopedics',
-            therapy: 'Therapy',
-            pediatric: 'Pediatric Dentistry',
-            orthodontics: 'Orthodontics'
+          products: {
+            title: 'Մոդելներ',
+            desc: 'Տրիցիկլների բոլոր մոդելների համար aarba ընկերությունը տրամադրում է մեկ տարվա երաշխիք։',
+            premium1500: '1500 Premium',
+            advanced1200: '1200 Advanced',
+            standard1000: '1000 Standard',
+            premium1500pr: 'Գինը 1.159.000 ՀՀ դրամ',
+            advanced1200pr: 'Գինը 1.159.000 ՀՀ դրամ',
+            standard1000pr: 'Գինը 890.000 ՀՀ դրամ',
           }
           
         }
@@ -90,8 +89,8 @@ i18n
           },
           navLink: {
             home: 'Մեր մասին',
-            services: 'Ծառայություններ',
-            contact: 'կոնտակտներ'
+            products: 'Մոդելներ',
+            contact: 'Հետադարձ Կապ'
           },
           intro: {
             innovation: '',
@@ -100,15 +99,14 @@ i18n
             client: ''
           },
           services: {
-            title: 'Մեր ծառայությունները՝',
-            desc: 'Նորարարական մեթողների, սարքավորումների և նյութերի կիրառում, Արտերկրում վերապատրաստված փորձառու մասնագետներ, Ապահովագրական և սոցիալական փաթեթների սպասարկում, Ինդիվիդուալ մոտեցում յուրաքանչյուր հաճախորդին։',
-            implantation: 'Իմպլանտացիա',
-            surgery: 'Վիրաբուժություն',
-            cosmetic: 'Ատամների Կոսմետիկ վերականգնում',
-            orthopedics: 'Օրթոպեդիա',
-            therapy: 'Թերապիա',
-            pediatric: 'Մանկական Ստոմատոլոգիա',
-            orthodontics: 'Օրթոդոնտիա'
+            title: 'Մոդելներ',
+            desc: 'Տրիցիկլների բոլոր մոդելների համար aarba ընկերությունը տրամադրում է մեկ տարվա երաշխիք։',
+            premium1500: '1500 Premium',
+            advanced1200: '1200 Advanced',
+            standard1000: '1000 Standard',
+            premium1500pr: 'Գինը 1.159.000 ՀՀ դրամ',
+            advanced1200pr: 'Գինը 1.159.000 ՀՀ դրամ',
+            standard1000pr: 'Գինը 890.000 ՀՀ դրամ',
           }
         }
       }
