@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.840eda44.css",
-    "main.js": "/static/js/main.120ef847.js",
+    "main.js": "/static/js/main.c1a7a1ce.js",
     "static/media/tractor-model1.png": "/static/media/tractor-model1.0666b07701d62e45ab8e.png",
     "static/media/tractor-model2.png": "/static/media/tractor-model2.7d4b701ac22c057c3543.png",
     "static/media/tractor-model3.png": "/static/media/tractor-model3.1af078b84eae34f24936.png",
@@ -21,10 +21,10 @@
     "static/media/gallery-1.jpg": "/static/media/gallery-1.1f2ec115dcb3b87e1f05.jpg",
     "index.html": "/index.html",
     "main.840eda44.css.map": "/static/css/main.840eda44.css.map",
-    "main.120ef847.js.map": "/static/js/main.120ef847.js.map"
+    "main.c1a7a1ce.js.map": "/static/js/main.c1a7a1ce.js.map"
   },
   "entrypoints": [
     "static/css/main.840eda44.css",
-    "static/js/main.120ef847.js"
+    "static/js/main.c1a7a1ce.js"
   ]
 }
