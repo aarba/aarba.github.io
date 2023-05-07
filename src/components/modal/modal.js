@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import "./modal.css";
 
 function Modal(props) {
@@ -16,10 +16,38 @@ function Modal(props) {
     };
   }, [props.onClose]);
 
+  const contentRef = useRef(null);
+  const overlayRef = useRef(null);
+
+  const handleScroll = () => {
+    if (contentRef.current && overlayRef.current) {
+      const { scrollTop, scrollHeight, clientHeight } = contentRef.current;
+      const isScrolledToBottom = scrollTop + clientHeight >= scrollHeight;
+      overlayRef.current.style.opacity = isScrolledToBottom ? 0 : 1;
+    }
+  };
+
+  useEffect(() => {
+    if (contentRef.current) {
+      contentRef.current.addEventListener("scroll", handleScroll);
+    }
+
+    return () => {
+      if (contentRef.current) {
+        contentRef.current.removeEventListener("scroll", handleScroll);
+      }
+    };
+  }, []);
+
   return (
     <div className="modal-wrapper">
       <div className="modal-background" onClick={props.onClose}></div>
-      <div className="modal-content">{props.children}</div>
+      <div className="modal-content">
+        <div className="scrollable-content" ref={contentRef}>
+          {props.children}
+        </div>
+        <div className="fading-overlay" ref={overlayRef}></div>
+      </div>
     </div>
   );
 }
