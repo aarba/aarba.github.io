@@ -3,7 +3,7 @@ export const Contacts = () => {
     <section id="contact" className="contact">
       <div className="container">
         <div className="section-title">
-          <h2>Հետադարձ կապ</h2>
+          <h2>Մեր մասին</h2>
           <p>
             GreenTech ընկերությունը զբաղվում է aarba տրիցիկլների վաճառքով։
             Վերջին տարիներին էլեկտրական փոխադրամիջոցների նկատմամբ

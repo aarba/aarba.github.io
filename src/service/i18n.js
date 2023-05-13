@@ -26,10 +26,10 @@ i18n
             welcome: 'Welcome to Avalon Dental'
           },
           navLink: {
-            home: 'Մեր մասին',
+            home: 'Գլխավոր',
             gallery: 'Տեսադարան',
             products: 'Մոդելներ',
-            contact: 'Հետադարձ Կապ'
+            contact: 'Մեր մասին'
           },
           intro: {
             innovation: '',
@@ -88,9 +88,9 @@ i18n
 
           },
           navLink: {
-            home: 'Մեր մասին',
+            home: 'Գլխավոր',
             products: 'Մոդելներ',
-            contact: 'Հետադարձ Կապ'
+            contact: 'Մեր մասին'
           },
           intro: {
             innovation: '',

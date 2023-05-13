@@ -12,7 +12,7 @@ export const products = new Map([[1,
         ],
         tableContents: {
             guyn: "Բաց մոխրագույն",
-            brand: "aarba",
+            brand: " <span font-size=\"14px\">aar</span>ba",
             sharjichHzorutyun: "1500 Վտ",
             martkoc: "XUPAI (60v-72AH)",
             martkocTesak: "Քարշային",
