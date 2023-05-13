@@ -6,13 +6,22 @@ export default function AboutUs(params) {
       <div className="row">
         <div className="col-lg-4 d-flex align-items-stretch">
           <div className="content">
-            <h4>Էլեկտրական տրիցիկլները առանձնահատկությունները</h4>
+            <h4>Էլեկտրաէներգիաի ծախսի հաշվարկ</h4>
             <p>
+              <ul>
+                 <li> Մարտկոցի միջին տարողունակություն (60v-58Ah) 60x58=3480 </li> 
+                 <li> 1 կՎտ = 45դր </li>
+                 <li> 3.480 կՎտ x 45 = 157դր </li>
+              </ul>
+              Մեկ լիցքավորման արժեքը չի գերազանցում 157դր, որով կարելի է գնալ 55-60կմ, 
+              մինչդեռ 1լ բեզինի գինը 370դր Է
+            </p>
+            {/* <p>
               Էլեկտրական տրիցիկլները հարմար են և՛ կոմերցիոն, և՛ անձնական օգտագործման համար: Այս
 փոխադրամիջոցի կիրառումը զգալիորեն կհեշտացնի աշխատանքային առօրյան։ Տրիցիկլը
 վարելու համար հատուկ հմտություններ հարկավոր չեն, անգամ տեխնիկայից շատ հեռու
 մարդիկ կարող են հեշտությամբ սովորել այն վարել։
-            </p>
+            </p> */}
             {/* <div className="text-center">
               <a href="#" className="more-btn">Learn More <i className="bx bx-chevron-right"></i></a>
             </div> */}
@@ -21,7 +30,7 @@ export default function AboutUs(params) {
         <div className="col-lg-8 d-flex align-items-stretch">
           <div className="icon-boxes d-flex flex-column justify-content-center">
             <div className="row">
-              <div className="col-xl-7 d-flex align-items-stretch">
+              <div className="col-xl-6 d-flex align-items-stretch">
                 <div className="icon-box mt-4 mt-xl-0">
                   {/* <i className="bx bx-receipt"></i> */}
                   <h5>Կիրառությունը</h5>
@@ -33,13 +42,18 @@ export default function AboutUs(params) {
                   գյուղատնտեսության և ջերմոցային տնտեսության մեջ</p>
                 </div>
               </div>
-              <div className="col-xl-5 d-flex align-items-stretch">
+              <div className="col-xl-6 d-flex align-items-stretch">
                 <div className="icon-box mt-4 mt-xl-0">
-                  {/* <i className="bx bx-cube-alt"></i>
-                  <h4>Ullamco laboris ladore pan</h4> */}
-                  <p>Բեռնատար տրիցիկլները հարմար են կաթի տարաներ, կենդանիներ, արկղերով միրգ ու
-բանջարեղեն տեղափոխելու համար, իսկ կիսակցանքի ինքնաթափ ֆունկցիան թույլ կտա
-հեշտությամբ բեռնաթափել ցանկացած տեսակի ապրանք:</p>
+                  {/* <i className="bx bx-cube-alt"></i> */}
+                  <h5>Առավելություններ</h5> 
+                  <p>
+                    <ul>
+                       <li>Գրեթե անվճար բեռների տեղափոխում</li> 
+                       <li>էժան պահեստամասեր և սպասարկում</li>
+                       <li>Ոչ մի պետական գրանցում և ապահովագրություն</li>
+                       <li>Էկալոգիապես մաքուր և անձայն</li>
+                    </ul>
+                  </p>
                 </div>
               </div>
             </div>

@@ -40,10 +40,10 @@ i18n
           products: {
             title: 'Մոդելներ',
             desc: 'Տրիցիկլների բոլոր մոդելների համար aarba ընկերությունը տրամադրում է մեկ տարվա երաշխիք։',
-            premium1500: '1500 Premium',
-            advanced1200: '1200 Advanced',
-            standard1000: '1000 Standard',
-            premium1500pr: 'Գինը 1.159.000 ՀՀ դրամ',
+            premium1500: '1500PR',
+            advanced1200: '1200AD',
+            standard1000: '1000ST',
+            premium1500pr: 'Գինը 1.259.000 ՀՀ դրամ',
             advanced1200pr: 'Գինը 1.159.000 ՀՀ դրամ',
             standard1000pr: 'Գինը 890.000 ՀՀ դրամ',
           }
@@ -101,10 +101,10 @@ i18n
           services: {
             title: 'Մոդելներ',
             desc: 'Տրիցիկլների բոլոր մոդելների համար aarba ընկերությունը տրամադրում է մեկ տարվա երաշխիք։',
-            premium1500: '1500 Premium',
-            advanced1200: '1200 Advanced',
-            standard1000: '1000 Standard',
-            premium1500pr: 'Գինը 1.159.000 ՀՀ դրամ',
+            premium1500: '1500PR',
+            advanced1200: '1200AD',
+            standard1000: '1000ST',
+            premium1500pr: 'Գինը 1.259.000 ՀՀ դրամ',
             advanced1200pr: 'Գինը 1.159.000 ՀՀ դրամ',
             standard1000pr: 'Գինը 890.000 ՀՀ դրամ',
           }

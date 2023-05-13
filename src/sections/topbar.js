@@ -12,9 +12,9 @@ const TopBar = () => {
     <div id="topbar" className="d-flex align-items-center fixed-top">
       <div className="container d-flex justify-content-between">
         <div className="contact-info d-flex align-items-center">
-          <a href="mailto:aarbacompany@gmail.com">
+          <a href="mailto:aarbaarmenia@gmail.com">
             <i className="bi bi-envelope" />
-            <span>aarbacompany@gmail.com</span>
+            <span>aarbaarmenia@gmail.com</span>
           </a>
 
           <a href="tel: +374 44 151654" style={{ marginLeft: "20px" }}>

@@ -6,6 +6,18 @@ import img5 from '../img/gallery/gallery-5.jpg'
 import img6 from '../img/gallery/gallery-6.jpg'
 import img7 from '../img/gallery/gallery-7.jpg'
 import img8 from '../img/gallery/gallery-8.jpg'
+import img9 from '../img/gallery/gallery-9.jpg'
+import img10 from '../img/gallery/gallery-10.jpg'
+import img11 from '../img/gallery/gallery-11.jpg'
+import img12 from '../img/gallery/gallery-12.jpg'
+import img13 from '../img/gallery/gallery-13.jpg'
+import img14 from '../img/gallery/gallery-14.jpg'
+import img15 from '../img/gallery/gallery-15.jpg'
+import img16 from '../img/gallery/gallery-16.jpg'
+import img17 from '../img/gallery/gallery-17.jpg'
+
+
+
 
 export default function Gallery(params) {
   return (
@@ -68,6 +80,62 @@ export default function Gallery(params) {
               <img src={img8} alt="" className="img-fluid" />
           </div>
         </div>
+
+        <div className="col-lg-3 col-md-4">
+          <div className="gallery-item">
+              <img src={img9} alt="" className="img-fluid" />
+          </div>
+        </div>
+
+        <div className="col-lg-3 col-md-4">
+          <div className="gallery-item">
+              <img src={img10} alt="" className="img-fluid" />
+          </div>
+        </div>
+
+        <div className="col-lg-3 col-md-4">
+          <div className="gallery-item">
+              <img src={img11} alt="" className="img-fluid" />
+          </div>
+        </div>
+
+        <div className="col-lg-3 col-md-4">
+          <div className="gallery-item">
+              <img src={img12} alt="" className="img-fluid" />
+          </div>
+        </div>
+
+        <div className="col-lg-3 col-md-4">
+          <div className="gallery-item">
+              <img src={img13} alt="" className="img-fluid" />
+          </div>
+        </div>
+
+        <div className="col-lg-3 col-md-4">
+          <div className="gallery-item">
+              <img src={img14} alt="" className="img-fluid" />
+          </div>
+        </div>
+
+        <div className="col-lg-3 col-md-4">
+          <div className="gallery-item">
+              <img src={img15} alt="" className="img-fluid" />
+          </div>
+        </div>
+
+        <div className="col-lg-3 col-md-4">
+          <div className="gallery-item">
+              <img src={img16} alt="" className="img-fluid" />
+          </div>
+        </div>
+
+        <div className="col-lg-3 col-md-4">
+          <div className="gallery-item">
+              <img src={img17} alt="" className="img-fluid" />
+          </div>
+        </div>
+        
+
       </div>
     </div>
   </section>
