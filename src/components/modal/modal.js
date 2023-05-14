@@ -43,6 +43,9 @@ function Modal(props) {
     <div className="modal-wrapper">
       <div className="modal-background" onClick={props.onClose}></div>
       <div className="modal-content">
+        <div className="close-icon" onClick={props.onClose}>
+          X
+        </div>
         <div className="scrollable-content" ref={contentRef}>
           {props.children}
         </div>

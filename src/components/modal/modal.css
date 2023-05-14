@@ -20,13 +20,28 @@
 }
 
 .modal-content {
-  height: 80%;
   max-height: calc(100vh - 100px);
   background-color: white;
   padding: 10px;
   border-radius: 5px;
   overflow-y: auto;
   margin: 0 50px;
+}
+
+.close-icon {
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  position: absolute;
+  right: 20px;
+  z-index: 99999;
+}
+
+@media (max-width: 991px) {
+  .modal-content {
+    max-height: 100vh;
+    margin: 0;
+  }
 }
 
 .scrollable-content {
