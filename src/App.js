@@ -18,10 +18,10 @@ function App() {
   const [stack, _] = useState([]);
 
   useEffect(() => {
-    console.log({stack})
       uiInit(stack);
 
     setTimeout(() => {
+        console.log('initing inside set timeout')
       init();
 
       stack.forEach((onLoad) => {
