@@ -8,6 +8,7 @@
 let inited = false;
 
 export const uiInit = function (stack) {
+  console.log({ inited });
   if (inited) {
     return;
   }
@@ -128,6 +129,7 @@ export const uiInit = function (stack) {
    * Mobile nav toggle
    */
   on("click", ".mobile-nav-toggle", function (e) {
+    console.log('on mobile nav click trigger')
     select("#navbar").classList.toggle("navbar-mobile");
     this.classList.toggle("bi-list");
     this.classList.toggle("bi-x");

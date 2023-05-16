@@ -18,7 +18,8 @@ function App() {
   const [stack, _] = useState([]);
 
   useEffect(() => {
-    uiInit(stack);
+    console.log({stack})
+      uiInit(stack);
 
     setTimeout(() => {
       init();
